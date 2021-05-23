@@ -9,6 +9,8 @@ app.use('/user', users);
 
 app.post('/login', middlewares.login);
 
+app.get('/btc/price', middlewares.auth, middlewares.btcPrice);
+
 app.use(middlewares.error);
 
 app.listen(3000, () => {
