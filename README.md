@@ -2,7 +2,7 @@
 
 **Atividade 4** desenvolvida em grupo com: [Gabriel Donnantuoni](https://github.com/gabrielDonnantuoni), [Gustavo Thirion](https://github.com/Gustaft86) e [Rafael Greco](https://github.com/Rmgreco).
 
-O restante das atividades realizei em dupla com a [Rosiele](https://github.com/rosids)
+O restante das atividades realizei em dupla com a [Rosiele](https://github.com/rosids).
 
 ## Atividades
 
