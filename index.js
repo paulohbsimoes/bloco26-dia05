@@ -1,11 +1,14 @@
 const express = require('express');
-const users = require('./routes/user');
 const app = express();
+const users = require('./routes/user');
+const posts = require('./routes/posts');
 const middlewares = require('./middlewares');
 
 app.use(express.json());
 
 app.use('/user', users);
+
+app.use('/posts', posts)
 
 app.post('/login', middlewares.login);
 
