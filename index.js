@@ -14,6 +14,13 @@ app.post('/login', middlewares.login);
 
 app.get('/btc/price', middlewares.auth, middlewares.btcPrice);
 
+app.get('/:operacao/:numero1/:numero2', [
+  middlewares.operation.sum,
+  middlewares.operation.subtract,
+  middlewares.operation.divide,
+  middlewares.operation.multiply
+]);
+
 app.use(middlewares.error);
 
 app.listen(3000, () => {
