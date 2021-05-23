@@ -6,19 +6,19 @@ O restante das atividades realizei em dupla com a [Rosiele](https://github.com/r
 
 ## Atividades
 
-### Atividade 1:
+### Atividade 1: ✔️
 
 Rota: **/login**
 
 Objetivo: Receber uma requisição que envie email/senha e receba um **token** como resposta. O formato desse **token** deve ser uma string aleatória com 12 caracteres. O email recebido deve ter o formato **email@mail.com** e a senha deve conter no mínimo 4 caracteres e no máximo 8, todos números. Caso algum desses campos seja enviado em formato incorreto, deve-se retornar uma mensagem de erro **email or password is incorrect**. e seu devido status code.
 
-### Atividade 2:
+### Atividade 2: ✔️
 
 Rota: **/btc/price**
 
 Objetivo: Receber uma requisição com um **token** e verificar se ele está correto. O formato do token deve ser uma string de 12 caracteres contendo letras e números. Caso o formato do **token** esteja incorreto, devolva o erro como resposta **invalid token**. Caso o formato do **token** esteja correto, faça um fetch em uma API externa de sua preferencia e retorne os dados da API como resposta. (sugestão de API: https://api.coindesk.com/v1/bpi/currentprice/BTC.json ) O **token** será passado pelo header da seguinte forma: Authorization: asd65asd5sd8
 
-### Atividade 3:
+### Atividade 3: ✔️
 
 Rotas: **/posts/:id** e **/posts**
 
@@ -39,7 +39,7 @@ const posts = [
 ]
 ```
 
-### Atividade 4:
+### Atividade 4: ✔️
 
 Rota: **/user/:name**
 
@@ -60,7 +60,7 @@ const users = [
 ]
 ```
 
-### Atividade 5:
+### Atividade 5: ✔️
 
 Rota: **/:operacao/:numero1/:numero2**
 
