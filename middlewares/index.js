@@ -1,5 +1,7 @@
-const handleErrorMiddleware = require('./handleErrorMiddleware');
+const error = require('./error');
+const login = require('./login');
 
 module.exports = {
-  handleErrorMiddleware
+  error,
+  login
 }
