@@ -5,6 +5,7 @@ const auth = require('./auth');
 const posts = require('./posts');
 const operation = require('./operation');
 const recipe = require('./recipe');
+const comments = require('./comments');
 
 module.exports = {
   error,
@@ -13,5 +14,6 @@ module.exports = {
   auth,
   posts,
   operation,
-  recipe
+  recipe,
+  comments
 }

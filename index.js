@@ -13,6 +13,8 @@ app.use('/posts', posts);
 
 app.use('/recipe', recipe);
 
+app.get('/comments', middlewares.comments);
+
 app.post('/login', middlewares.login);
 
 app.get('/btc/price', middlewares.auth, middlewares.btcPrice);
