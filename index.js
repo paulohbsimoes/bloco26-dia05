@@ -2,13 +2,16 @@ const express = require('express');
 const app = express();
 const users = require('./routes/user');
 const posts = require('./routes/posts');
+const recipe = require('./routes/recipe')
 const middlewares = require('./middlewares');
 
 app.use(express.json());
 
 app.use('/user', users);
 
-app.use('/posts', posts)
+app.use('/posts', posts);
+
+app.use('/recipe', recipe);
 
 app.post('/login', middlewares.login);
 
