@@ -66,7 +66,7 @@ Rota: **/:operacao/:numero1/:numero2**
 
 Objetivo: Deve validar a operação e retornar o resultado da mesma. As operações podem ser **soma**, **subtração**, **divisão** ou **multiplicação**. Regra: Um middleware deve ser usado para cada operação. A operação deve ser recebida como parâmetro na rota.
 
-### Atividade 6:
+### Atividade 6: ✔️
 
 Rota: **/recipe/:id**
 
@@ -89,7 +89,7 @@ const recipes = [
 ]
 ```
 
-### Atividade 7:
+### Atividade 7: ✔️
 
 Rota: **/recipe/:id**
 
@@ -112,7 +112,7 @@ const recipes = [
 ]
 ```
 
-### Atividade 8:
+### Atividade 8: ✔️
 
 Rota: **/comments**
 
@@ -134,7 +134,7 @@ const users = [
 ]
 ```
 
-### Atividade 9:
+### Atividade 9: ✔️
 
 Rota: **/user/:id**
 
@@ -163,7 +163,7 @@ const users = [
 ]
 ```
 
-### Atividade 10:
+### Atividade 10: ✔️
 
 Rota: **/recipe/:id/ingredients**
 
