@@ -3,9 +3,12 @@ const app = express();
 const users = require('./routes/user');
 const posts = require('./routes/posts');
 const recipe = require('./routes/recipe')
+const users2 = require('./routes/user2');
 const middlewares = require('./middlewares');
 
 app.use(express.json());
+
+app.use('/user2', users2);
 
 app.use('/user', users);
 

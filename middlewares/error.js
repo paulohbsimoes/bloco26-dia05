@@ -1,5 +1,6 @@
 module.exports = (err, _req, res, _next) => {
   if (err.isJoi) {
+    console.log(err);
     const errorMessages = err.details.map(({ message }) => message).join('\n')
     return res.status(400).send(errorMessages);
   }
